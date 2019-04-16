@@ -1,4 +1,3 @@
-// Helen Belete
 
 // This program keeps track of the state of Hangman which is played
 // by a user. However, instead of having a target word in mind at the 
