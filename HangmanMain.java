@@ -31,7 +31,7 @@ public class HangmanMain  {
 
         // set up the HangmanManager and start the game
         List<String> dictionary2 = Collections.unmodifiableList(dictionary);
-        HangmanManager hangman = new HangmanManager2(dictionary2, length, max);
+        HangmanManager hangman = new HangmanManager(dictionary2, length, max);
         if (hangman.words().isEmpty()) {
             System.out.println("No words of that length in the dictionary.");
         } else {
