@@ -1,4 +1,3 @@
-
 // This program keeps track of the state of Hangman which is played
 // by a user. However, instead of having a target word in mind at the 
 // beginning of the game, it delays picking a word until it  
@@ -137,7 +136,6 @@ public class HangmanManager {
    // patterns and groups those with the same pattern together
    private void updatePatternEntries(String pattern, String topPattern, char guess) {
       Iterator<String> it = words.iterator();
-      System.out.print(words.size());
       while (it.hasNext()) { 
          String currentWord = it.next();
          pattern = updatePattern(currentWord, topPattern, guess);
@@ -152,11 +150,3 @@ public class HangmanManager {
       }
    }
 }
-
-
-
-
-
-
-
-
